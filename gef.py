@@ -4320,7 +4320,7 @@ class GefThemeCommand(GenericCommand):
         self.add_setting("registers_register_name", "blue", "Color of the register name in the register window")
         self.add_setting("registers_value_changed", "bold red", "Color of the changed register in the register window")
         self.add_setting("address_stack", "pink", "Color to use when a stack address is found")
-        self.add_setting("address_heap", "yellow", "Color to use when a heap address is found")
+        self.add_setting("address_heap", "green", "Color to use when a heap address is found")
         self.add_setting("address_code", "red", "Color to use when a code address is found")
         self.add_setting("source_current_line", "green", "Color to use for the current code line in the source window")
         return
